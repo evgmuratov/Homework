@@ -1,0 +1,6 @@
+Class: "Customer Goods"
+Attributes: color, type (food, digital devices, clothes, cleaning, beauty), 
+			time of expiration, weight, package, state of producing, frigile,
+			garranty, cash/credit, temparature of storage, date of producing, price,
+			address for delivery
+Methods: buy, send, receive, fix, use, move, check, storage, open, test (first try to use)

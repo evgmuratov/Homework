@@ -1,0 +1,16 @@
+Class: "Vehicles"
+Attributes: wheels, color, topdspeed
+Methods: drive, paint, fix, check readiness
+
+	Subclass: "EngineVehicles"
+	Attributes: fuel type, fuel capasity, fuel consumption
+	Methods: fill (with fuel), fix
+		
+		Subclass: "Cars"
+		Attributes: interior, doors, hood, trunk
+		Methods: park, open door, storage trunk
+		
+			Subclass: "ManualTransmissionCars"
+			Attributes: transmission type, gears quantity, gear lever situation   
+			Methods: fix, drift, use clutch, on moving gear switch
+			

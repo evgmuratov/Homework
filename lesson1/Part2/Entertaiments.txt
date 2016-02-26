@@ -1,0 +1,5 @@
+Class: "Entertaiments"
+Attributes: type, minimum people, duration, equipment, age, price, season, single/team, start time, 
+			place
+Methods: buy, book, send, present, request duration, invite players, rent equipment, get price, get
+		address, choose type

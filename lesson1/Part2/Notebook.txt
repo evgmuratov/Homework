@@ -1,0 +1,3 @@
+Class: "Notebook"
+Attributes: producer, color, material, display size, RAM capasity, hard disk capasity, CPU frequency, VGA capasity, weight, installed OS
+Methods: buy, send, present, book, test, power on, power off, fix, reinstall OS, install software

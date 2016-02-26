@@ -1,0 +1,3 @@
+Class: "Flash Memory"
+Attributes: color, capasity, brending, material, format, file system, record speed, reading speed, garranty, producer 
+Methods: format, plug in, assign label, eject, antivirus check, file system check, share, password protect, encrypt, get status
