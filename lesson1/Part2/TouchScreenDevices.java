@@ -9,16 +9,16 @@ public class TouchScreenDevices {
 	int cpu;
 	String os;
 	boolean is3g;
-public powerOn() {}	
-private supdate() {}
-private installSoft() {}
-public createDoc() {}
-public checkTime() {}
-private gotosite() {}
-public fix() {}
-private hupgrade() {}
-private customize() {}
-public powerOff(String=newType) 
+public String powerOn() {}	
+private String supdate() {}
+private String installSoft() {}
+public String createDoc() {}
+public int checkTime() {}
+private String gotosite() {}
+public String fix() {}
+private String hupgrade() {}
+private String customize() {}
+public boolean powerOff(String newType) 
 				{type=newType}
 		
 }

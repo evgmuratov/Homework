@@ -11,19 +11,19 @@ public class FlashMemory 	{
 	int garrantyPeriod;
 	String producer;
 	
-public setColor(String=newColor)
+public String setColor(String newColor)
 				{color=newColor}
-public getType(String=newType) 
+public String getType(String newType) 
 				{type=newType}
-private format() {}
-private plugIn() {}
-public assignLabel() {} 				
-private eject() {}
-public antivirusCheck() {}
-public fsCheck() {}
-public share() {}
-private passProtect() {}
-private encrypt() {}
-private getStatus() {}
+private boolean format() {}
+private String plugIn() {}
+public String assignLabel() {} 				
+private boolean eject() {}
+public String antivirusCheck() {}
+public String fsCheck() {}
+public String share() {}
+private String passProtect() {}
+private String encrypt() {}
+private String getStatus() {}
 							}
 							

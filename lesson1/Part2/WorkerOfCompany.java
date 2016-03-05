@@ -9,17 +9,17 @@ public class WorkersOfCompany {
 	String name;
 	String surname;
 	String address;
-public create() {}
-public copy() {}
-public move() {}
-public delete() {}
-public update() {}
-private add() {}
+public String create() {}
+public String copy() {}
+public String move() {}
+public String delete() {}
+public String update() {}
+private String add() {}
 	//add to department
-private assign() {}
-private setVac() {}
+private String assign() {}
+private int setVac() {}
 	//set vacation polic
-private fire(String=newName)
+private boolean fire(String newName)
 			{name=newName}
 	
 }

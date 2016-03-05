@@ -8,16 +8,16 @@ public class MusicInstruments {
 		String color;
 		int keys;
 		int coordinates;
-public play(String=newType) 
+public String play(String newType) 
 			{type=newType}
-public move(int=newCoordinates)
+public int move(int newCoordinates)
 			{coordinates=newCoordinates}
-public clean() {}
-public connect() {}
-private configure(String=newClass) 
+public String clean() {}
+public boolean connect() {}
+private String configure(String newClass) 
 			{class=newClass}
-public test() {}
-public fix() {}
-public storage() {}
+public String test() {}
+public String fix() {}
+public int storage() {}
 	}
 	

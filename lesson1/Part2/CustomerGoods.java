@@ -1,4 +1,4 @@
-public abstract class CustomerGoods 	{
+public class CustomerGoods 	{
 	String color;
 	String type; // food, digital devices, clothes, cleaning, beauty
 	boolean isFastExpired;
@@ -13,17 +13,17 @@ public abstract class CustomerGoods 	{
 	int price;
 	String address;
 	
-public payMoney(int=newPrice) 
+public int payMoney(int newPrice) 
 			{price=newPrice} //buy
-public sendTo(String=newAddress) 
+public String sendTo(String newAddress) 
 			{address=newAddress} //send
-public receive() {}
-public fix() {}
-public use() {}
-public move() {}
-private check(boolean=isGarrantyNew) 
+public boolean receive() {}
+public String fix() {}
+public String use() {}
+public int move() {}
+private boolean check(boolean isGarrantyNew) 
 			{isGarranty=isGarrantyNew}
-abstract storage() {}
-public open() {}
-abstract test() {} //first try to use
+public int storage() {}
+public String open() {}
+public String test() {} //first try to use
 							}

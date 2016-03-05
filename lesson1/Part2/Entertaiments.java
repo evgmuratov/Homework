@@ -10,18 +10,18 @@ public class Entertaiments 	{
 	int start time;
 	String place;
 	
-public payMoney(int=newPrice) 
+public int payMoney(int newPrice) 
 			{price=newPrice} //buy
-public sendTo()	{} //send
-public sendPresent() {}
-private getDuration(int=newDuration) 
+public String sendTo()	{} //send
+public String sendPresent() {}
+private int getDuration(int newDuration) 
 					{duration=newDuration}
-private sendInvitations () {}
-private rentEquip(String=newEquipment)
+private boolean sendInvitations () {}
+private int rentEquip(String newEquipment)
 				{equipment=newEquipment}
-public getPrice() {}
-public getPlace(String=newPlace)
+public int getPrice() {}
+public String getPlace(String newPlace)
 				{place=newPlace}
-private setType() {}
+private String setType() {}
 							}
 							

@@ -9,15 +9,15 @@ public class Notebook {
 	int vga; // VGA capasity
 	int weight;
 	boolean isInstalledOS;
-public buy() {}
-public send() {}
-public present() {}
-private test(String=newProducer) 
+public int buy() {}
+public String send() {}
+public String present() {}
+private String test(String newProducer) 
 			{producer=newProducer}
-private powerOn() {}
-private powerOff() {}
-public fix() {}
-private reinstallOS() {}
-private installSoft() {}
+private boolean powerOn() {}
+private String powerOff() {}
+public String fix() {}
+private String reinstallOS() {}
+private String installSoft() {}
 	
 }
