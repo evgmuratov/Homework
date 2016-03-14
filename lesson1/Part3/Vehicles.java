@@ -5,7 +5,7 @@ public abstract class Vehicles {
 	
     void String driveStright(int newSpeed) 
 					{speed=newSpeed}
-	void Strin paint(String newColor)
+	void String paint(String newColor)
 					{color=newColor}
 				
     abstract void fix();
