@@ -1,16 +1,14 @@
 package PreIntermediateLevel;
 public class Task14 {
-	public void printText(String text){
-		int i;
+	public static void printText(String text){
 		String k="";
-		for (i=0; i<text.length(); i++){
+		for (int i=0; i<text.length(); i++){
 			k=k+" ";
 			System.out.println(k+text.substring(i,i+1));
 		}
 	}
 	public static void main(String[] args) {
-		Task14 myText=new Task14();
-		myText.printText("I have finished!");
+		Task14.printText("I have finished!");
 	}
 
 }

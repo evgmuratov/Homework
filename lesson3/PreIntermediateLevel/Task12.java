@@ -1,31 +1,25 @@
 package PreIntermediateLevel;
 public class Task12 {
-	public int[] convertArray(String number){
-		number="1234567";
+	public static int[] convertArray(String number){
 		String[] items = number.split("");
 		int[] digit=new int[items.length];
-		int i;
-		for (i=0; i<items.length; i++){
+		for (int i=0; i<items.length; i++){
 			digit[i]=Integer.parseInt(items[i]);
 			}
 		return digit;
 	}
-	public int sumDigits(int[] array){
+	public static  int sumDigits(int[] array){
 		int sum=0;
-		int i;
-		for (i=0; i<array.length; i++){
+		for (int i=0; i<array.length; i++){
 			sum=sum+array[i];
 		}
 		return sum;
 	}
 	public static void main(String[] args) {
-		Task12 myNumber=new Task12();
 		String number="1234567";
-		int amount;
 		int[] myArray;
-		myArray=myNumber.convertArray(number);
-		amount=myNumber.sumDigits(myArray);
-		System.out.println(amount);
+		myArray=Task12.convertArray(number);
+		System.out.println(Task12.sumDigits(myArray));
 	}
 
 }
