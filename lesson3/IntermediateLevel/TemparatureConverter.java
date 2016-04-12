@@ -1,22 +1,24 @@
 package IntermediateLevel;
 
 public class TemparatureConverter {
-	public double convertToCelsius(double temp){
+	public static double convertToCelsius(double temp){
 		double cels=temp-273.15;
 		return cels;
 	}
-	public double convertToKelvin(double temp){
-		double kelv=temp+273.15;
-		return kelv;
-	}
+	public static void convertToKelvin(double temp){
+		double kelv;
+		if (temp<-273.15){
+			System.out.println("-273,15 Celsius is min temparature that could be converted to Kelvin. It equals to absolut zero in Kelvin");
+		}else{
+		kelv=temp+273.15;
+		System.out.println("Temparature "+temp+"C in Kelvin equals "+kelv+"K");
+		}
+		}
 
 	public static void main(String[] args) {
-		TemparatureConverter myTemp=new TemparatureConverter();
-		double newCels=15.00;
-		double convKelv=myTemp.convertToKelvin(newCels);
+		TemparatureConverter.convertToKelvin(-283.15);
 		double newKelv=301.05;
-		double convCels=myTemp.convertToCelsius(newKelv);
-		System.out.println("Temparature "+newCels+"C in Kelvin equals "+convKelv+"K");
+		double convCels=TemparatureConverter.convertToCelsius(newKelv);
 		System.out.println("Temparature "+newKelv+"K in Celsius equals "+convCels+"C");
 
 	}
