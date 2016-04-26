@@ -1,37 +1,18 @@
 package PreIntermediateLevel;
 
 public class Task6 {
-	public int sumArray(int[] array){
-		int length=array.length-1;
-		int i;
+	public static void sumArray(int[] array){
 		int sumRes=0;
-		for (i=0; i<=length; i++){
+		for (int i=0; i<=array.length-1; i++){
 			sumRes=sumRes+array[i];
 		}
-		return sumRes;
-	}
-	public float aveArray(int[] array){
-		int length=array.length-1;
-		int i;
-		float aveRes;
-		int sumRes=0;
-		for (i=0; i<=length; i++){
-			sumRes=sumRes+array[i];
-		}
-		aveRes=(float)sumRes/(length+1);
-		return aveRes;
+		float aveRes=(float)sumRes/(array.length);
+		System.out.println(sumRes);
+		System.out.println(aveRes);
 	}
 		public static void main(String[] args) {
-			Task6 myArray=new Task6();
-			int newArray[]=new int[6];
-			newArray[0]=11;
-			newArray[1]=22;
-			newArray[2]=33;
-			newArray[3]=44;
-			newArray[4]=55;
-			newArray[5]=66;
-			System.out.println(myArray.sumArray(newArray));
-			System.out.println(myArray.aveArray(newArray));
+			int newArray[]={11,22,33,44,55,66};			
+			Task6.sumArray(newArray);
 	}
 
 }

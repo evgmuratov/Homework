@@ -1,17 +1,13 @@
 package BeginnerLevel;
 public class Task8 {
-	public void printLine(String line, int length){
-		int i;
-		String text;
-		for (i=0; i<length; i++){
+	public static void printLine(String line, int length){
+		for (int i=0; i<length; i++){
 			int newLength=length-i;
-			text=line.substring(0,newLength);
-			System.out.print(text);
+			System.out.print(line.substring(0,newLength));
 		}
 	}
 	public static void main(String[] args) {
-		Task8 myLine=new Task8();
-		myLine.printLine("Testing", 2);
+		Task8.printLine("Testing", 2);
 	}
 
 }

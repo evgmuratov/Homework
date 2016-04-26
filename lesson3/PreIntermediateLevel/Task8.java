@@ -1,27 +1,28 @@
 package PreIntermediateLevel;
 public class Task8 {
 	//It seems that result is not correct. It should be discussed.
-	public long fibonachi(){
-		int i;
+	public static long fibonachi(){
 		long a=0;
 		long b=1;
 		long c;
 		long result=1;
-		for (i=3; i<=300; i++){
+		int i=0;
+		while (true){
 			c=a+b;
 			a=b;
 			b=c;
-			if (!(c%2==0)){
+			if (c%2!=0){
 				result=result+c;
-			}else{}
+				i++;
+			}
+			if (i==100){
+				break;
+			}
 		}
 		return result;
 	}
 	public static void main(String[] args) {
-		Task8 mySum=new Task8();
-		long res;
-		res=mySum.fibonachi();
-		System.out.println(res);
+		System.out.println(Task8.fibonachi());
 	}
 
 }

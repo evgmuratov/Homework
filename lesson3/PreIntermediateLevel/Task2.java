@@ -1,6 +1,6 @@
 package PreIntermediateLevel;
 public class Task2 {
-	public String swapChar(String line){
+	public static String swapChar(String line){
 		String result;
 		char[] array=line.toCharArray();
 		int length=array.length;
@@ -14,10 +14,7 @@ public class Task2 {
 		return result;
 	}
 	public static void main(String[] args) {
-		Task2 myString=new Task2();
-		String res;
-		res=myString.swapChar("who is your daddy?");
-		System.out.println(res);			
+		System.out.println(Task2.swapChar("who is your daddy?"));			
 	}
 
 }

@@ -4,8 +4,7 @@ public class Task4 {
 	static int array2[]={3,5,2,3,3,3};
 	public int quant(int array[], int x){
 		int result=0;
-		int counter;
-		for (counter=0; counter<array.length; counter++){
+		for (int counter=0; counter<array.length; counter++){
 			if (array[counter]==x){
 				result++;
 			}else{			
