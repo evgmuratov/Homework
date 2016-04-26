@@ -1,0 +1,12 @@
+SELECT flights.flightNumber
+ FROM flights 
+JOIN airlines 
+ON flights.flightNumber=airlines.flightNumber 
+JOIN airports 
+ON airports.airport=flights.departureAirport 
+WHERE departureAirport='London' 
+AND arrivalAirport='Munich' 
+AND availableSeats>=4 
+AND averageTicketPrice<=120
+ AND additionalSpaceService='yes' 
+AND priorityBoarding='yes'

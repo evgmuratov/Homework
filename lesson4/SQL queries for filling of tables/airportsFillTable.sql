@@ -1,0 +1,16 @@
+INSERT INTO airports (airport, dutyFree, priorityBoarding)
+VALUES ('London', 'yes', 'yes'),
+('Paris', 'yes', 'yes'),
+('Sydney', 'no', 'no'), 
+('Berlin',	'yes',	'no'), 
+('Munich',	'yes',	'no'),
+('New-York',	'no',	'no'),
+('Kiev',	'yes',	'yes'),
+('Budapest',	'yes',	'no'),
+('Beijing',	'no',	'yes'),
+('Prague',	'yes',	'yes'),
+('Helsinki',	'no',	'no'),
+('Ottava',	'no',	'no'),
+('Vilnius',	'yes',	'yes'),
+('Milan',	'yes',	'yes'),
+('Barcelona',	'yes',	'no'); 

@@ -1,0 +1,9 @@
+SELECT flights.flightNumber
+ FROM flights 
+JOIN airlines 
+ON flights.flightNumber=airlines.flightNumber 
+WHERE departureAirport='Paris' 
+AND arrivalAirport='Helsinki' 
+AND availableSeats>=4 
+AND averageTicketPrice<=100
+ AND additionalSpaceService='no' 

@@ -1,0 +1,10 @@
+SELECT airlines.flightNumber
+ FROM airlines 
+JOIN flights 
+ON flights.flightNumber=airlines.flightNumber 
+JOIN airports 
+ON airports.airport=flights.departureAirport 
+WHERE departureAirport='Kiev' 
+AND webRegistration='yes'
+ AND additionalSpaceService='yes' 
+AND priorityBoarding='yes'
