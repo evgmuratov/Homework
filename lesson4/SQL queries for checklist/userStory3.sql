@@ -1,8 +1,11 @@
-SELECT airlines.airline 
+select airCompany
+ FROM (
+SELECT airlines.airline as airCompany, AVG(averageTicketPrice) as avePrice 
 FROM flights
  JOIN airlines 
 ON flights.flightNumber=airlines.flightNumber 
 WHERE arrivalAirport='Milan' 
-AND arrivalAirport='Helsinki' 
+OR arrivalAirport='Helsinki' 
 AND webRegistration='yes'
- AND averageTicketPrice<100
+GROUP BY airlines.airline) as airlinesList
+ WHERE avePrice<100;
