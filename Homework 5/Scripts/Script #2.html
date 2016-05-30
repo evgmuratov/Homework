@@ -1,0 +1,75 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.calculator.net/mortgage-calculator.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "chouseprice"
+      },
+      "text": "50000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cdownpayment"
+      },
+      "text": "15"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cloanterm"
+      },
+      "text": "5"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      },
+      "text": "25"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "id",
+        "value": "caddoptional"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[12]/td[1]/input[2]"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Monthly Pay"
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.h2result"
+      },
+      "text": "Monthly Pay:   $1,247.43"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
