@@ -102,7 +102,7 @@ public class Employees {
 		System.out.println(Employees.tax(Employees.Salary(5000, 5, 200))+" UAH of taxes will be payed.");
 		System.out.println(Employees.Pension(Employees.Salary(5000, 5, 200), "high", 4)+" UAH will be send to pension fund.");
 		System.out.println("In this month he has "+Employees.totalWorkDays("01 05 2016", "01 06 2016")+" work days");
-		System.out.println("The value of one work hour in may is "+Employees.workHourValue(Employees.Salary(5000, 5, 200), Employees.totalWorkDays("05 01 2016", "06 01 2016"))+" UAH");
+		System.out.println("The value of one work hour in may is "+Employees.workHourValue(Employees.Salary(5000, 5, 200), Employees.totalWorkDays("01 05 2016", "01 06 2016"))+" UAH");
 		System.out.println("He has "+Employees.Vacation(28, 12, 4)+" days left for vacation in this year");
 		System.out.println("He could go on retire "+Employees.retireDate("28 05 1989", "29 01 2012")+" if he wants.");
 	}

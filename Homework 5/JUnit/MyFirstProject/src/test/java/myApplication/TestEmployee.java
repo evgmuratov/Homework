@@ -4,11 +4,11 @@ import org.junit.*;
 public class TestEmployee {
 	@BeforeClass
 	public static void startSuite(){
-		System.out.println("Test suite is started");
+		System.out.println("TestEmployee is started");
 		}
 	@AfterClass
 	public static void finishSuite(){
-		System.out.println("Test suite is finished");
+		System.out.println("TestEmployee is finished");
 		}
 	@Before
 	public void start(){
@@ -28,19 +28,7 @@ public class TestEmployee {
 	}
 	@Test
 	public void testWorkHourValue(){
-		assertEquals("failure - work our value is counted wrong", 9375, Employees.workHourValue(75000, 31));
-	}
-	@Test
-	public void testTotalWorkDays(){
-		assertEquals("failure - total work days is counted wrong", 31, Employees.totalWorkDays("01 05 2016", "01 06 2016"));
-	}
-	@Test
-	public void testTax(){
-		assertEquals("failure - tax is counted wrong", 11250, Employees.tax(75000));
-	}
-	@Test
-	public void testVacation(){
-		assertEquals("failure - vacation days is counted wrong", 16, Employees.Vacation(28, 12, 4));
+		assertEquals("failure - work our value is counted wrong", 302, Employees.workHourValue(75000, 31));
 	}
 	@Test
 	@Ignore("Need more time to finish this test")
