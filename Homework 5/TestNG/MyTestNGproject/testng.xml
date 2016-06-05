@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite1">
+<suite name="Suite1" parallel="tests" thread-count="5">
   <test name="TestEmployeesNG1">
 <groups>
 <run>
@@ -13,7 +13,7 @@
 </classes>
 </test>
 </suite>
-<suite name="Suite2">
+<suite name="Suite2" parallel="tests" thread-count="5">
   <test name="TestEmployeesNG2">
 <groups>
 <run>
