@@ -63,16 +63,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="myApplication.TestEmployee" name="testRetireDate" time="0.002">
+  <testcase classname="myApplication.TestEmployee" name="testRetireDate" time="0">
     <skipped message="Need more time to finish this test"/>
     <system-out>TestEmployee2 is finished
 TestEmployee is started
 </system-out>
   </testcase>
-  <testcase classname="myApplication.TestEmployee" name="testPension" time="0.001"/>
-  <testcase classname="myApplication.TestEmployee" name="testWorkHourValue" time="0.002"/>
-  <testcase classname="myApplication.TestEmployee" name="testSalary" time="0.002"/>
-  <testcase classname="myApplication.TestEmployee2" name="testTax" time="0.004"/>
-  <testcase classname="myApplication.TestEmployee2" name="testVacation" time="0.002"/>
-  <testcase classname="myApplication.TestEmployee2" name="testTotalWorkDays" time="0.002"/>
+  <testcase classname="myApplication.TestEmployee" name="testPension" time="0"/>
+  <testcase classname="myApplication.TestEmployee" name="testWorkHourValue" time="0"/>
+  <testcase classname="myApplication.TestEmployee" name="testSalary" time="0.015"/>
+  <testcase classname="myApplication.TestEmployee2" name="testTax" time="0"/>
+  <testcase classname="myApplication.TestEmployee2" name="testVacation" time="0"/>
+  <testcase classname="myApplication.TestEmployee2" name="testTotalWorkDays" time="0"/>
 </testsuite>

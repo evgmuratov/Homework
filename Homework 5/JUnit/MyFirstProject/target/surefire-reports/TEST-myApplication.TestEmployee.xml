@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="myApplication.TestEmployee" time="0.131" errors="0" skipped="1">
+<testsuite tests="4" failures="0" name="myApplication.TestEmployee" time="0.218" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
@@ -63,12 +63,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="myApplication.TestEmployee" name="testRetireDate" time="0.112">
+  <testcase classname="myApplication.TestEmployee" name="testRetireDate" time="0.109">
     <skipped message="Need more time to finish this test"/>
     <system-out>TestEmployee is started
 </system-out>
   </testcase>
-  <testcase classname="myApplication.TestEmployee" name="testPension" time="0.008"/>
-  <testcase classname="myApplication.TestEmployee" name="testWorkHourValue" time="0.003"/>
-  <testcase classname="myApplication.TestEmployee" name="testSalary" time="0.008"/>
+  <testcase classname="myApplication.TestEmployee" name="testPension" time="0.078"/>
+  <testcase classname="myApplication.TestEmployee" name="testWorkHourValue" time="0.016"/>
+  <testcase classname="myApplication.TestEmployee" name="testSalary" time="0.015"/>
 </testsuite>

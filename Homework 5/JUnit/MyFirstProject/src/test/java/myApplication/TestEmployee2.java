@@ -22,6 +22,10 @@ public class TestEmployee2 {
 	public void testTotalWorkDays(){
 		assertEquals("failure - total work days is counted wrong", 31, Employees.totalWorkDays("01 05 2016", "01 06 2016"));
 	}
+	@Test(expected=java.text.ParseException.class)
+	public void testTotalWorkDaysNegative(){
+		Employees.totalWorkDays("abc", "01 06 2016");
+	}
 	@Test
 	public void testTax(){
 		assertEquals("failure - tax is counted wrong", 11250, Employees.tax(75000));

@@ -18,7 +18,7 @@ public class TestEmployee {
 	public void finish(){
 	System.out.println("Test is finished");
 	}
-	@Test
+	@Test(timeout=1000)
 	public void testSalary(){
 		assertEquals("failure - salary is counted wrong", 75000, Employees.Salary(5000, 5, 200));
 	}
