@@ -4,7 +4,8 @@
   <test name="TestEmployeesNG1">
 <groups>
 <run>
-<include name="Group1","Group2"/>
+<include name="Group1"/>
+<include name="Group2"/>
 </run>
 </groups>
 <classes>
@@ -16,11 +17,12 @@
   <test name="TestEmployeesNG2">
 <groups>
 <run>
-<include name="Group4", "Group5"/>
+<include name="Group4"/>
+<include name="Group5"/>
 <exclude name="Group3"/>
 </run>
 <dependencies>
-      <group name="Group5" depends-on="Group4" />
+      <group name="Group5" depends-on="Group4"/>
       </dependencies>
 </groups>
 <classes>
