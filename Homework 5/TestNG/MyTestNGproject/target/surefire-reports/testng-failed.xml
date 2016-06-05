@@ -9,12 +9,6 @@
   </test> <!-- Command line test -->
   <test name="Command line test(failed)">
     <classes>
-      <class name="App.TestEmployeesNG1">
-        <methods>
-          <include name="start"/>
-          <include name="finish"/>
-        </methods>
-      </class> <!-- App.TestEmployeesNG1 -->
       <class name="App.TestEmployeesNG2">
         <methods>
           <include name="start"/>
@@ -22,6 +16,12 @@
           <include name="testTotalWorkDaysNegative"/>
         </methods>
       </class> <!-- App.TestEmployeesNG2 -->
+      <class name="App.TestEmployeesNG1">
+        <methods>
+          <include name="start"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- App.TestEmployeesNG1 -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

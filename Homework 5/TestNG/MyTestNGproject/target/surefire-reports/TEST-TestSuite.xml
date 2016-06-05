@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="1" name="TestSuite" time="0.234" errors="0" skipped="0">
+<testsuite tests="7" failures="1" name="TestSuite" time="1.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
@@ -63,14 +63,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="App.TestEmployeesNG1" name="testPension" time="0.04"/>
-  <testcase classname="App.TestEmployeesNG1" name="testSalary" time="0.005"/>
+  <testcase classname="App.TestEmployeesNG1" name="testPension" time="0.005"/>
+  <testcase classname="App.TestEmployeesNG1" name="testSalary" time="0"/>
   <testcase classname="App.TestEmployeesNG2" name="testTax" time="0"/>
-  <testcase classname="App.TestEmployeesNG2" name="testTotalWorkDays" time="0.035"/>
-  <testcase classname="App.TestEmployeesNG2" name="testTotalWorkDaysNegative" time="0.154">
+  <testcase classname="App.TestEmployeesNG2" name="testTotalWorkDays" time="0.063"/>
+  <testcase classname="App.TestEmployeesNG2" name="testTotalWorkDaysNegative" time="0.939">
     <failure message="
-Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5] should have thrown an exception of type class java.text.ParseException" type="org.testng.TestException">org.testng.TestException: 
-Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5] should have thrown an exception of type class java.text.ParseException
+Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b] should have thrown an exception of type class java.text.ParseException" type="org.testng.TestException">org.testng.TestException: 
+Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b] should have thrown an exception of type class java.text.ParseException
 	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1381)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:681)

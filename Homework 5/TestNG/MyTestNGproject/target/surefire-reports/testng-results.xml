@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="228" started-at="2016-06-05T11:13:39Z" finished-at="2016-06-05T11:13:39Z">
+  <suite name="Command line suite" duration-ms="280" started-at="2016-06-05T11:45:03Z" finished-at="2016-06-05T11:45:03Z">
     <groups>
       <group name="Group1">
-        <method signature="TestEmployeesNG1.testSalary()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="testSalary" class="App.TestEmployeesNG1"/>
+        <method signature="TestEmployeesNG1.testSalary()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="testSalary" class="App.TestEmployeesNG1"/>
       </group> <!-- Group1 -->
       <group name="Group2">
-        <method signature="TestEmployeesNG1.testPension()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="testPension" class="App.TestEmployeesNG1"/>
+        <method signature="TestEmployeesNG1.testPension()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="testPension" class="App.TestEmployeesNG1"/>
       </group> <!-- Group2 -->
       <group name="Group5">
-        <method signature="TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTotalWorkDaysNegative" class="App.TestEmployeesNG2"/>
+        <method signature="TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTotalWorkDaysNegative" class="App.TestEmployeesNG2"/>
       </group> <!-- Group5 -->
       <group name="Group3">
-        <method signature="TestEmployeesNG2.testTotalWorkDays()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTotalWorkDays" class="App.TestEmployeesNG2"/>
+        <method signature="TestEmployeesNG2.testTotalWorkDays()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTotalWorkDays" class="App.TestEmployeesNG2"/>
       </group> <!-- Group3 -->
       <group name="Group4">
-        <method signature="TestEmployeesNG2.testTax()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTax" class="App.TestEmployeesNG2"/>
-        <method signature="TestEmployeesNG2.testVacation()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testVacation" class="App.TestEmployeesNG2"/>
+        <method signature="TestEmployeesNG2.testTax()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTax" class="App.TestEmployeesNG2"/>
+        <method signature="TestEmployeesNG2.testVacation()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testVacation" class="App.TestEmployeesNG2"/>
       </group> <!-- Group4 -->
     </groups>
-    <test name="Command line test" duration-ms="228" started-at="2016-06-05T11:13:39Z" finished-at="2016-06-05T11:13:39Z">
+    <test name="Command line test" duration-ms="280" started-at="2016-06-05T11:45:03Z" finished-at="2016-06-05T11:45:03Z">
       <class name="App.TestEmployeesNG2">
-        <test-method status="PASS" signature="testTax()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTax" duration-ms="0" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testTax()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTax" duration-ms="1" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTax -->
-        <test-method status="PASS" signature="testTotalWorkDays()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTotalWorkDays" duration-ms="55" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testTotalWorkDays()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTotalWorkDays" duration-ms="92" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalWorkDays -->
-        <test-method status="FAIL" signature="testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testTotalWorkDaysNegative" duration-ms="32" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="FAIL" signature="testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testTotalWorkDaysNegative" duration-ms="27" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <exception class="org.testng.TestException">
             <message>
               <![CDATA[
-Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5] should have thrown an exception of type class java.text.ParseException]]>
+Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b] should have thrown an exception of type class java.text.ParseException]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestException: 
-Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5] should have thrown an exception of type class java.text.ParseException
+Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b] should have thrown an exception of type class java.text.ParseException
 	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1381)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:681)
@@ -77,37 +77,37 @@ Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmpl
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalWorkDaysNegative -->
-        <test-method status="PASS" signature="testVacation()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="testVacation" duration-ms="1" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testVacation()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="testVacation" duration-ms="1" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVacation -->
       </class> <!-- App.TestEmployeesNG2 -->
       <class name="App.TestEmployeesNG1">
-        <test-method status="PASS" signature="start()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="start" is-config="true" duration-ms="37" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="start" is-config="true" duration-ms="26" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="start()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="start" is-config="true" duration-ms="1" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="start" is-config="true" duration-ms="0" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="testPension()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="testPension" duration-ms="19" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testPension()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="testPension" duration-ms="4" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPension -->
-        <test-method status="PASS" signature="testSalary()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="testSalary" duration-ms="0" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testSalary()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="testSalary" duration-ms="6" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSalary -->
-        <test-method status="PASS" signature="testWorkHourValue()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="testWorkHourValue" duration-ms="35" depends-on-groups="Group2" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="testWorkHourValue()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="testWorkHourValue" duration-ms="72" depends-on-groups="Group2" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWorkHourValue -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:App.TestEmployeesNG1@3ac3fd8b]" name="finish" is-config="true" duration-ms="1" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:App.TestEmployeesNG1@43a25848]" name="finish" is-config="true" duration-ms="0" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:App.TestEmployeesNG2@5594a1b5]" name="finish" is-config="true" duration-ms="0" started-at="2016-06-05T14:13:39Z" finished-at="2016-06-05T14:13:39Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b]" name="finish" is-config="true" duration-ms="1" started-at="2016-06-05T14:45:03Z" finished-at="2016-06-05T14:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->

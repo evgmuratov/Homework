@@ -29,7 +29,7 @@ public class TestEmployeesNG1 {
 	public void testWorkHourValue(){
 		assert EmployeesNG.workHourValue(75000, 31) == 302 : "Expected work our value is 302 for " + EmployeesNG.workHourValue(75000, 31);
 		}
-	@Test (enabled = false)
+	@Test (enabled = false, groups = {"Group1"})
 	public void testRetireDate(){
 		assert EmployeesNG.retireDate("28 05 1989", "29 01 2012").equals("Thu May 28 00:00:00 EEST 2054") : "Expected retire date is Thu May 28 00:00:00 EEST 2054 for " + EmployeesNG.retireDate("28 05 1989", "29 01 2012");
 		}

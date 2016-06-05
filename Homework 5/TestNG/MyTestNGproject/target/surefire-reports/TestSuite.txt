@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.69 sec <<< FAILURE!
-testTotalWorkDaysNegative(App.TestEmployeesNG2)  Time elapsed: 0.154 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.762 sec <<< FAILURE!
+testTotalWorkDaysNegative(App.TestEmployeesNG2)  Time elapsed: 0.939 sec  <<< FAILURE!
 org.testng.TestException: 
-Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@5594a1b5] should have thrown an exception of type class java.text.ParseException
+Method TestEmployeesNG2.testTotalWorkDaysNegative()[pri:0, instance:App.TestEmployeesNG2@3ac3fd8b] should have thrown an exception of type class java.text.ParseException
 	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1381)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:681)
