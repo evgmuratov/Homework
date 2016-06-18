@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<createIssue>
+  <Project>Confluence</Project>
+  <IssueType>Bug</IssueType>
+  <Summary>NewDefect</Summary>
+  <Description>cool new defect</Description>
+  <AffectVersion>1.0.618.001</AffectVersion>
+  <SecurityLevel>None</SecurityLevel>
+  <Labels>affects-server</Labels>
+  <Component>Content-Blogs</Component>
+  <Priority>Minor</Priority>
+  <Environment>Mozilla Firefox 47.0.1</Environment>
+ </createIssue>
