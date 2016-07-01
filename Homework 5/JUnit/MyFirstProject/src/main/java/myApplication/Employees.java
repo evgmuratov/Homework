@@ -7,11 +7,11 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class Employees {
-	public static int Salary(int basic, int grade, int bonus){
+	public int Salary(int basic, int grade, int bonus){
 		int res=basic*grade+(basic*grade*bonus)/100;
 		return res;
 	}
-	public static int Pension(int salary, String program, int experience){
+	public int Pension(int salary, String program, int experience){
 		int res=0;
 		if(program.equals("high")){
 			res=salary*40*experience/1000;
@@ -22,12 +22,12 @@ public class Employees {
 		}
 		return res;
 	}
-	public static int Vacation(int standard, int usedDays, int experience){
+	public int Vacation(int standard, int usedDays, int experience){
 		int res=0;
 		int k=0;
 		if(experience<=5){
 			k=1;
-		}else if(experience>5 | experience<=10){
+		}else if(experience>5 & experience<=10){
 			k=2;
 		}else if(experience>10){
 			k=3;
@@ -35,11 +35,11 @@ public class Employees {
 		res=standard*k-usedDays;
 		return res;
 	}
-	public static long workHourValue(int salary, long workDays){
+	public long workHourValue(int salary, long workDays){
 		long res=salary/(workDays*8);
 		return res;
 	}
-	public static long totalWorkDays(String startDay, String currentDay){
+	public long totalWorkDays(String startDay, String currentDay){
 		SimpleDateFormat myFormat = new SimpleDateFormat("dd MM yyyy");
 		long res = 0;
 		try {
@@ -53,13 +53,13 @@ public class Employees {
 		}
 		return res;		
 	}
-	public static int tax(int salary){
+	public int tax(int salary){
 		int k = 0;
 		if(salary<=10000){
 			k=10;
-		}else if(salary>10000 | salary<=25000){
+		}else if(salary>10000 & salary<=25000){
 			k=15;
-		}else if(salary>25000 | salary<=40000){
+		}else if(salary>25000 & salary<=40000){
 			k=27;
 		}else if (salary>40000){
 			k=40;
@@ -67,7 +67,7 @@ public class Employees {
 		int res = salary*k/100;
 		return res;
 	}
-	public static Date retireDate(String birthDay, String startWork){
+	public Date retireDate(String birthDay, String startWork){
 		SimpleDateFormat myFormat = new SimpleDateFormat("dd MM yyyy");
 		Date res = null;
 		Date birthDate = null;
@@ -98,6 +98,7 @@ public class Employees {
 		return res;		
 	}
 	public static void main(String[] args) {
+		Employees Employees = new Employees();
 		System.out.println("Vitaliy has "+Employees.Salary(5000, 5, 200)+" UAH in may 2016");
 		System.out.println(Employees.tax(Employees.Salary(5000, 5, 200))+" UAH of taxes will be payed.");
 		System.out.println(Employees.Pension(Employees.Salary(5000, 5, 200), "high", 4)+" UAH will be send to pension fund.");

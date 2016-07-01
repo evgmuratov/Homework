@@ -1,6 +1,7 @@
 package App;
 import org.testng.annotations.*;
 public class TestEmployeesNG2 {
+	EmployeesNG EmployeesNG = new EmployeesNG();
 	@BeforeGroups
 	public static void startSuite(){
 		System.out.println("New group in 2st suite is started");

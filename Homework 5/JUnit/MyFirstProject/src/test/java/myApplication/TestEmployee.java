@@ -2,6 +2,7 @@ package myApplication;
 import static org.junit.Assert.*;
 import org.junit.*;
 public class TestEmployee {
+	Employees Employees = new Employees();
 	@BeforeClass
 	public static void startSuite(){
 		System.out.println("TestEmployee is started");
@@ -22,10 +23,7 @@ public class TestEmployee {
 	public void testSalary(){
 		assertEquals("failure - salary is counted wrong", 75000, Employees.Salary(5000, 5, 200));
 	}
-	@Test
-	public void testPension(){
-		assertEquals("failure - pension transfer is counted wrong", 12000, Employees.Pension(75000, "high", 4));
-	}
+	
 	@Test
 	public void testWorkHourValue(){
 		assertEquals("failure - work our value is counted wrong", 302, Employees.workHourValue(75000, 31));
